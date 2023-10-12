@@ -1,0 +1,68 @@
+<!--Second quiz-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Quiz Game TO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="quiz-container">
+        <h2>Part 2 Quiz Game</h2>
+
+        <button id="start-button">Start Part 2 Quiz Time</button>
+        <div id="questions-container" style="display: none;">
+            <!-- Question 1: Multiple Choice -->
+            <div class="question">
+                <p><strong>Question 1.2:</strong> Convert this Binary (10110001101011.11110010) to Hexadecimal?</p>
+                <div class="choices">
+                    <label>
+                        <input type="radio" name="q1" value="mali"> AB243.684
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="mali"> FDA.1292
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="tama"> 2C6B.F2 <!-- ito tama-->
+                    </label>
+                </div>
+            </div>
+
+            <!-- Question 2: Fill in the Blank -->
+            <div class="question">
+                <p><strong>Question 2.2:</strong> It is the data or the information that is to be exchanged between 
+                    two points.</p>
+                <input type="text" id="q2-answer" placeholder="Type your answer here">
+            </div>
+
+            <!-- Question 3: True or False -->
+            <div class="question">
+                <p><strong>Question 3.2:</strong> True or False: Digital Communicationb involves the physical transfer of data and information 
+                through a suitable communication channel.</p>
+                <div class="choices">
+                    <label>
+                        <input type="radio" name="q3" value="true"> True
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="false"> False
+                    </label>
+                </div>
+            </div>
+
+            <button id="submit-button">Submit</button>
+        </div>
+        
+        <div id="result-container" style="display: none;">
+            <h2>Results</h2>
+            <p id="score"></p>
+            <a href="https://shantist.github.io/quizpart1/"><button type="button">Proceed to next part</button></a>
+        </div>
+    </div>
+
+    <script src="jaba1.js"></script>
+</body>
+</html>
